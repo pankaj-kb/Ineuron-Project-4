@@ -85,6 +85,7 @@ main {
 #learn-more:hover {
     background-color: #3B855B;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .rightSection {
