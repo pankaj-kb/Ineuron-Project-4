@@ -29,6 +29,15 @@ ul li :first-child {
     /* margin-right: 100px; */
 }
 
+ul li :first-child:hover {
+    /* border: solid #3B855B; */
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 1.5s;
+    padding-right: 2px;
+    background-color: #3B855B;
+}
+
 nav ul li .nav-buttons {
     /* background-color: #D5D5D3; */
     font-family: 'Fira Sans', sans-serif;
@@ -79,10 +88,10 @@ main {
     margin-top: 20px;
     border: none;
     border-radius: 18px;
-    transition: background-color 1s;
 }
 
 #learn-more:hover {
+    transition: background-color 1s;
     background-color: #3B855B;
     color: #ffffff;
     cursor: pointer;
@@ -101,5 +110,31 @@ main {
 /* .rightSection :hover {
     border-color: #3B855B;
     border-radius: 20px;
-    border-style: solid;
 } */
+
+.extraSpacing {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1f1f;
+    text-decoration: none;
+    background-color: #D5D5D3;
+    /* display: none; */
+    /* visibility: hidden; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all ease-in 0.5s;
+}
+
+.signature:hover {
+    background-color: #3B855B;
+    color: #ffffff;
+}
